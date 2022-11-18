@@ -4,7 +4,7 @@ import { Typewriter} from 'react-simple-typewriter'
 const Data = () => {
   return (
       <div className="home_data">
-          <h1 className="home_title">Hy! I'm Saravanakumar👋</h1>
+          <h1 className="home_title">Hy! I'm Saravanakumar<span className='hand'>👋</span></h1>
 
           <h2 className='typewriter-text1'>
               
