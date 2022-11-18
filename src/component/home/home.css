@@ -239,7 +239,7 @@
        display: none;
     }
     .hand{
-        font-size: 39px;
+        font-size: 38px;
         
     }
     .icon_size {
@@ -250,18 +250,13 @@
 }
 
     /* small Screen */
-@media screen and (max-width:375px) {
+@media screen and (max-width:425px) {
         .home_img{
             width: 180px;
             height: 180px;
         }
         .hand{
-            height: 22px;
-            width: 22px;
-            
-        }
-        .hand{
-            display: none;
+            display: none;  
             
         }
         
