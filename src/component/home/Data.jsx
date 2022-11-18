@@ -1,5 +1,5 @@
 import React from 'react'
-import { Typewriter, useTypewriter} from 'react-simple-typewriter'
+import { Typewriter} from 'react-simple-typewriter'
 
 const Data = () => {
   return (
