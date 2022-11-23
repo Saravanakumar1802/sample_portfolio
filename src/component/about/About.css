@@ -1,0 +1,37 @@
+.about_container{
+    text-align: center;
+    padding: 1rem;
+    max-width: 1400px;
+    margin: auto;
+    
+}
+.about_content{
+    text-align: center;
+}
+hr{
+    border: 3px solid rgb(56, 137, 243);
+    border-radius: 5px;
+    width: 50px;
+}
+.about_hr{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+
+/* Media Query*/
+/* large device */
+@media screen and (max-width:992px) {
+
+}
+
+/* Medium screen */
+@media screen and (max-width:768px) {
+
+}
+
+/* small Screen */
+@media screen and (max-width:425px) {
+
+}

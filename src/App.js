@@ -1,4 +1,5 @@
 import './App.css';
+import About from './component/about/About';
 import Header from './component/header/Header';
 import Home from './component/home/Home';
 
@@ -11,8 +12,10 @@ function App() {
       <main className='main'>
 
         <Home />
-
+        <About/>
       </main>
+
+      
 
 
     </>
