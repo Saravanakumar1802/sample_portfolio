@@ -9,10 +9,10 @@ const About = () => {
                     <hr/>
                 </div>
             
-                <div className="about_content"><h3>My name is Saravanakumar and I have recently completed a Bachelor of Engineering, majoring in Computing Science at the Anna University. I have a passion in Frond-End developing.I am
+                <div className="about_content"><p>My name is Saravanakumar and I have recently completed a Bachelor of Engineering, majoring in Computing Science at Anna University. I have a passion in Frond-End developing.I am
                     looking to join forces to grow my skill set while contributing to the positive outcome of making people
                     "richer, smarter, and happier."
-                </h3>
+                </p>
                 </div>
             </div>
         </div>

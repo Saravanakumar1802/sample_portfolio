@@ -1,37 +1,39 @@
-.about_container{
+.about_container {
     text-align: center;
     padding: 1rem;
     max-width: 1400px;
     margin: auto;
-    
+
 }
-.about_content{
+
+.about_content {
     text-align: center;
+    font-size: 1.6rem;
 }
-hr{
-    border: 3px solid rgb(56, 137, 243);
+
+hr {
+    border: 2px solid rgb(56, 137, 243);
     border-radius: 5px;
-    width: 50px;
+    width: 60px;
+    /* background-color: rgb(56, 137, 243); */
 }
-.about_hr{
+
+.about_hr {
     display: flex;
     justify-content: center;
     margin-bottom: 3rem;
 }
 
 
-/* Media Query*/
-/* large device */
-@media screen and (max-width:992px) {
 
-}
-
-/* Medium screen */
-@media screen and (max-width:768px) {
-
-}
 
 /* small Screen */
 @media screen and (max-width:425px) {
+    hr {
+        border: 2px solid rgb(56, 137, 243);
+    }
 
+    .about_content {
+        font-size: 19px;
+    }
 }
