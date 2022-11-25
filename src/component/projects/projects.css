@@ -65,7 +65,7 @@
     justify-content: space-around;
 }
 
-a {
+.project-link {
     background-image: linear-gradient(to right,
             rgb(108, 140, 255),
             #5487ec 50%,
@@ -80,7 +80,7 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-a:before {
+.project-link:before {
     content: '';
     background: rgb(108, 140, 255);
     display: block;
@@ -92,11 +92,11 @@ a:before {
     transition: all 0.3s ease-in-out;
 }
 
-a:hover {
+.project-link:hover {
     background-position: 0;
 }
 
-a:hover::before {
+.project-link:hover::before {
     width: 100%;
 }
 
