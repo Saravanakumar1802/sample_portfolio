@@ -2,6 +2,8 @@ import './App.css';
 import About from './component/about/About';
 import Header from './component/header/Header';
 import Home from './component/home/Home';
+import Skills from './component/skills/Skills';
+import ProjectsCard from './component/projects/ProjectsCard';
 
 function App() {
   return (
@@ -12,10 +14,13 @@ function App() {
       <main className='main'>
 
         <Home />
-        <About/>
+        <About />
+        <Skills />
+        <ProjectsCard />
+
       </main>
 
-      
+
 
 
     </>

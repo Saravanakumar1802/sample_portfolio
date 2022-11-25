@@ -3,7 +3,7 @@ import './home.css'
 const Scroll = () => {
   return (
     <div className='home_scroll'>
-      <a href="javascript(void)" className="home_scroll_button button--flex">
+      <a href="#about" className="home_scroll_button button--flex">
       <svg
                 width="32px"
                 height="32px"

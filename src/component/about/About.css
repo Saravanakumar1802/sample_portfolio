@@ -6,9 +6,14 @@
 
 }
 
+.abt_me{
+    color: rgb(41, 41, 41);
+}
+
 .about_content {
     text-align: center;
     font-size: 1.6rem;
+    margin-bottom: 4rem;
 }
 
 hr {
@@ -21,7 +26,13 @@ hr {
 .about_hr {
     display: flex;
     justify-content: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+}
+
+span:hover{
+    cursor: pointer;
+    color: royalblue;
+    
 }
 
 
