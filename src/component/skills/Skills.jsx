@@ -12,7 +12,6 @@ const Skills = () => {
         <div className='skill_container' id='skill'>
             <div className="skills">
                 <h1 className='skill_title_color'>My Skills</h1>
-                <hr className='skill_hr' />
             </div>
 
             <div className="skill_icons">

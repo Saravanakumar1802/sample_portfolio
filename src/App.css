@@ -79,8 +79,9 @@ body {
     background-color: var(--body-color);
     color: var(--text-color);
 }
-h1{
-    color:rgb(55, 55, 55);
+
+h1 {
+    color: rgb(55, 55, 55);
 }
 
 h2,
@@ -175,9 +176,7 @@ img {
 }
 
 /* For medium devices */
-@media screen and (max-width:768px) {
-
-}
+@media screen and (max-width:768px) {}
 
 /* For small devices */
 @media screen and (max-width:375px) {
@@ -185,6 +184,6 @@ img {
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
     }
-   
+
 
 }

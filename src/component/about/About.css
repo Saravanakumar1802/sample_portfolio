@@ -1,13 +1,26 @@
 .about_container {
     text-align: center;
-    padding: 1rem;
+    padding-top: 5rem;
     max-width: 1400px;
     margin: auto;
 
 }
 
-.abt_me{
+.abt_me {
     color: rgb(41, 41, 41);
+    padding-bottom: 5rem;
+    position: relative;
+}
+
+.abt_me::after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 46.6%;
+    width: 6.6%;
+    height: 6px;
+    border-radius: 5px;
+    background-color: rgb(56, 137, 243);
 }
 
 .about_content {
@@ -16,35 +29,26 @@
     margin-bottom: 4rem;
 }
 
-hr {
-    border: 2px solid rgb(56, 137, 243);
-    border-radius: 5px;
-    width: 60px;
-    /* background-color: rgb(56, 137, 243); */
-}
 
-.about_hr {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;
-}
-
-span:hover{
+span:hover {
     cursor: pointer;
     color: royalblue;
-    
+
 }
-
-
-
 
 /* small Screen */
 @media screen and (max-width:425px) {
-    hr {
-        border: 2px solid rgb(56, 137, 243);
+
+    .abt_me {
+        font-size: 1.5rem;
     }
 
     .about_content {
         font-size: 19px;
+    }
+
+    .abt_me::after {
+        left: 44.6%;
+        width: 11.6%;
     }
 }

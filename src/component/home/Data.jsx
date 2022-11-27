@@ -1,4 +1,5 @@
 import React from 'react'
+import myResume from '../../assets/Saravana-Cv.pdf';
 import { Typewriter } from 'react-simple-typewriter'
 const Data = () => {
     return (
@@ -21,11 +22,10 @@ const Data = () => {
             </h2>
 
 
-            {/* <h3 className='home_subtitle'>asdasdas</h3> */}
             <p className="home_description">I'm creative Front-end Developer from india and
                 I'm very passionate and dedicated to my work.</p>
             <div className='button1'>
-                <a download='Saravana-Cv.pdf' href='Saravana-Cv.pdf' className='btn_resume'>
+                <a download='Saravana-Cv' href={myResume} className='btn_resume'>
                     <button />Resume
                     <i className='icon_resume uil uil-file-info-alt'></i>
                 </a>

@@ -3,7 +3,8 @@ import About from './component/about/About';
 import Header from './component/header/Header';
 import Home from './component/home/Home';
 import Skills from './component/skills/Skills';
-import ProjectsCard from './component/projects/ProjectsCard';
+import ProjectData from './component/projects/ProjectData';
+import Contact from './component/contact/Contact';
 
 function App() {
   return (
@@ -16,8 +17,10 @@ function App() {
         <Home />
         <About />
         <Skills />
-        <ProjectsCard />
+        <ProjectData />
+        <Contact />
 
+        
       </main>
 
 

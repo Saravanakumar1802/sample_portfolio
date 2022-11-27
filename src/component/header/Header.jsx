@@ -37,7 +37,7 @@ const Header = () => {
                                 </a>
                             </li>
 
-                            <li className="nav_item">
+                            <li className="#contact">
                                 <a href="Javascript(void)" className="nav_link">
                                     <i className="uil uil-book nav_icon"></i>Resume
                                 </a>
