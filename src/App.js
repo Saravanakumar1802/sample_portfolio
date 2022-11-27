@@ -5,6 +5,7 @@ import Home from './component/home/Home';
 import Skills from './component/skills/Skills';
 import ProjectData from './component/projects/ProjectData';
 import Contact from './component/contact/Contact';
+import Footer from './component/footer/Footer';
 
 function App() {
   return (
@@ -19,8 +20,8 @@ function App() {
         <Skills />
         <ProjectData />
         <Contact />
-
-        
+        <Footer/>
+  
       </main>
 
 

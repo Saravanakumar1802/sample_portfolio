@@ -186,6 +186,8 @@
     background: rgb(56, 137, 243);
     display: flex;
     flex-direction: row;
+     padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .btn_resume:before {

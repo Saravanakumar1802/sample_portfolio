@@ -23,7 +23,7 @@
     width: 2%;
     height: 6px;
     border-radius: 5px;
-    background-color: rgb(56, 137, 243);
+    background-color: rgb(110, 110, 255);
 
 }
 
@@ -95,6 +95,58 @@ textarea {
     border: 2px solid rgb(144, 144, 243);
     resize: none;
 }
+.contact_button{
+
+}
+
+
+.contact_button {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .contact_button:after {
+    content: "";
+    background-color: rgb(125, 125, 242);
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  .contact_button:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Media query */
