@@ -14,7 +14,7 @@ const ProjectData = () => {
     return (
         <section className="projects" id="projects">
             <div className='project_title'>
-                <h1 className="projects-title">Some of my Recent Projects</h1>
+                <h1 className="projects-title">Some of My Recent Projects</h1>
             </div>
             <div className="projects-containers">
                 <ProjectsCard data={card} />

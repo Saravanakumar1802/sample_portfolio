@@ -37,14 +37,14 @@ const Header = () => {
                                 </a>
                             </li>
 
-                            <li className="#contact">
-                                <a href="Javascript(void)" className="nav_link">
+                            <li className="nav_item">
+                                <a href="#home" className="nav_link">
                                     <i className="uil uil-book nav_icon"></i>Resume
                                 </a>
                             </li>
 
                             <li className="nav_item">
-                                <a href="Javascript(void)" className="nav_link">
+                                <a href="#contact" className="nav_link">
                                     <i className="uil uil-message nav_icon"></i>Contact
                                 </a>
                             </li>

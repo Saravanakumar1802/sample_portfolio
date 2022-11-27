@@ -164,13 +164,15 @@
         align-items: center;
     }
 
-    .projects-title {
-        font-size: 1rem;
-        text-align: center;
+    .project_title::after {
+
+        left: 41.6%;
+        width: 15%;
+
     }
 
-    .project_title::after {
-        left: 39.6%;
-        width: 24%;
+    .project_title {
+        font-size: 14px;
+
     }
 }
